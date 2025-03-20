@@ -1,0 +1,55 @@
+{
+  "name": "eslint-config-june-react",
+  "version": "0.1.0",
+  "description": "ESLint configurations using Flat Config for react project",
+  "author": "haejunejung",
+  "license": "MIT",
+  "scripts": {
+    "build:docs": "npx @eslint/config-inspector build",
+    "serve:docs": "npx serve .eslint-config-inspector"
+  },
+  "files": [
+    "README.md",
+    "index.mjs",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-config-june",
+    "flat-config"
+  ],
+  "engines": {
+    "node": ">=20.11.0",
+    "pnpm": ">=9.15.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.26.1"
+  },
+  "peerDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.26.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
